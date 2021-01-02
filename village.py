@@ -7,7 +7,7 @@ from random import sample
 from scipy.special import comb
 
 
-# Perform 10000 simulations for different configurations of m and n
+# Perform 1000 simulations for different configurations of m and n
 est = []
 cis = []
 for n in range(5):
