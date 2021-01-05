@@ -117,7 +117,7 @@ def prob_state(state):
 calc = []
 for n in range(5):
     calc_tmp = []
-    for m in range(4, 50):
+    for m in range(4, 100):
         trans_probs = {}
         state_probs = {(1, n, 1): 1}
         markov_probs = {(1, n, 1): {(0, 1, 0): 1}}
